@@ -1,0 +1,40 @@
+about:
+  other: about
+allRightReserved:
+  other: "Creative Commons Attribution 4.0"
+contact:
+  other: contact
+contactMessageError:
+  other: "Your Message was not sent successfully"
+contactMessageSuccess:
+  other: "Your Message was sent successfully"
+content:
+  other: content
+copyright:
+  other: "Copyright"
+days:
+  other: "Days"
+emailAddress:
+  other: "Tu correo"
+home:
+  other: home
+hours:
+  other: "Hours"
+minutes:
+  other: "Minutes"
+seconds:
+  other: "Seconds"
+sendMe:
+  other: "Enviar"
+service:
+  other: service
+sliderImage:
+  other: "Slider image"
+subscribe:
+  other: "Suscribirme"
+yourEmailAddressHere:
+  other: "Ingresa tu correo electrónico"
+yourMessage:
+  other: "Tu mensaje"
+yourName:
+  other: "Tu nombre"

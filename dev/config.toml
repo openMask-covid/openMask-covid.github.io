@@ -1,0 +1,139 @@
+baseURL = "http://openmask.cc/"
+languageCode = "en-us"
+title = "OpenMask"
+theme = "openmask"
+removePathAccents = true
+
+
+
+# HTML before the closing </head>
+[params]
+customHead = ""
+
+# Navigation
+[params.navigation]
+logo = "images/logo.png"
+home = "Home"
+about = "Especificaciones"
+service = "Service"
+contact = "Contacto"
+
+# Hero Area
+[params.hero]
+enable            = true
+bg                = "images/header-bg.jpg"
+title             = "OpenMask"
+subtitle          = "Proyecto de innovación chilena colaborativa de máscara y filtros intercambiables."
+btnText           = "Saber más"
+
+# counter
+disableCountdown  = false
+countdownYear = "2020"
+countdownMonth = "10"
+countdownDay  = "1"
+
+# About Section
+[params.about]
+enable      = true
+heading     = "Filtro para partículas, en base a medios filtrantes de celulosa, fibra sintética y nanofibra de alta eficiencia, no tejida. (Capacidad de retención de partículas y aerosoles no oleosos clasificación bajo norma NIOSH 42 CFR o UNE según corresponda)."
+description = "Clasificación (Categoría): N, Rango de eficiencia 99%. Rango de filtración: desde 0,3 micrones. Aplicación: filtros para presión positiva y negativa, desarrollados para respiradores de medio rostro o rostro completo y sistemas de respiración mecánica, aplicables a respiración humana, de uso en ambientes con concentración de particulados nocivos para la salud. Método Prueba: OSHA 29CFR1910.134"
+
+[[params.about.sliderItem]]
+image   = "images/about/1.jpg"
+[[params.about.sliderItem]]
+image   = "images/about/2.jpg"
+[[params.about.sliderItem]]
+image   = "images/about/3.jpg"
+[[params.about.sliderItem]]
+image   = "images/about/2.jpg"
+
+
+# Service Section
+[params.service]
+enable      = false
+title       = "Find Better Solutions Build Better Products"
+subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-strategy"
+title   = "Fully Responsive"
+description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+delay   = "0s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-circle-compass"
+title   = "Speed Optimized"
+description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+delay   = "0.2s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-anchor2"
+title   = "Tons of Feature"
+description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+delay   = "0.4s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-globe"
+title   = "Fully SEO Optimized"
+description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+delay   = "0.6s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-strategy"
+title   = "Fully Responsive"
+description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+delay   = "0.8s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-circle-compass"
+title   = "Speed Optimized"
+description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+delay   = "1s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-anchor2"
+title   = "Tons of Feature"
+description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+delay   = "1.2s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-globe"
+title   = "Fully SEO Optimized"
+description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+delay   = "1.5s"
+
+
+# Call to Action Section
+[params.cta]
+enable      = true
+bg          = "images/call-to-action.jpg"
+title       = "Suscríbete para recibir noticias de OpenMask"
+subtitle    = "Regístrate hoy y recibe por correo electrónico las últimas novedades"
+
+[params.contact]
+enable      = true
+title       = "Estemos en contacto"
+subtitle    = ""
